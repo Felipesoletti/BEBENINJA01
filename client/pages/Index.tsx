@@ -32,21 +32,21 @@ export default function Index() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-pink-soft to-pink-soft/30 py-14 sm:py-20 lg:py-28">
+      <section className="bg-gradient-to-b from-pink-soft to-pink-soft/30 py-10 sm:py-14 lg:py-20">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left side - Content */}
             <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-lg">
-              <h1 className="font-fredoka text-3xl sm:text-4xl lg:text-5xl font-bold text-pink mb-4 leading-tight">
+              <h1 className="font-fredoka text-3xl sm:text-4xl lg:text-5xl font-bold text-pink mb-2 leading-tight">
                 Ofertas de mãe para mãe, todos os dias!
               </h1>
-              <p className="text-lg sm:text-xl text-dark/80 mb-6 leading-relaxed">
+              <p className="text-lg sm:text-xl text-dark/80 mb-4 leading-relaxed">
                 Eu compartilho os melhores achadinhos da Shopee. Tem de
                 tudo:&nbsp; fraldas, roupinhas, brinquedos e tudo que as
                 mamães amam no precinho.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+              <div className="flex flex-col sm:flex-row gap-4 mb-4">
                 <a
                   id="cta"
                   href={whatsappLink}
@@ -109,7 +109,7 @@ export default function Index() {
       <FAQ />
 
       {/* Final CTA */}
-      <section className="py-14 sm:py-20 lg:py-28 bg-white">
+      <section className="py-8 sm:py-12 lg:py-16 bg-white">
         <div className="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-pink-soft/40 via-pink-soft/20 to-white border-2 border-dashed border-pink-soft/50 rounded-3xl p-8 sm:p-10 text-center shadow-lg">
             <h2 className="font-fredoka text-2xl sm:text-3xl font-bold text-pink mb-6">
