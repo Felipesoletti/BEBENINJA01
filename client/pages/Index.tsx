@@ -32,8 +32,9 @@ export default function Index() {
             Ofertas de mãe para mãe, todos os dias!
           </h1>
           <p className="text-lg sm:text-xl text-dark/80 mb-6 max-w-2xl leading-relaxed">
-            Eu compartilho os melhores achadinhos da Shopee — fraldas, roupinhas,
-            brinquedos e tudo que as mamães amam com cupom e frete amigo!
+            Eu compartilho os melhores achadinhos da Shopee. Tem de
+            tudo:&nbsp; fraldas, roupinhas, brinquedos e tudo que as
+            mamães amam no precinho.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-6 items-start sm:items-center">
