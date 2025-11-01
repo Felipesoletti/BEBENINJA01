@@ -57,6 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        pink: {
+          DEFAULT: "hsl(var(--pink))",
+          soft: "hsl(var(--pink-soft))",
+        },
+        gold: "hsl(var(--gold))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +85,24 @@ export default {
             height: "0",
           },
         },
+        pulse: {
+          "0%": {
+            opacity: "0.9",
+            transform: "scale(0.98)",
+          },
+          "100%": {
+            opacity: "0",
+            transform: "scale(1.25)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        pulse: "pulse 1.8s infinite ease-out",
+      },
+      boxShadow: {
+        card: "var(--shadow)",
       },
     },
   },
