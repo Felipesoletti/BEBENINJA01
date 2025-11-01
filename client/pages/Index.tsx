@@ -4,7 +4,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 
 export default function Index() {
-  const whatsappLink = "https://wa.me/SEU_CODIGO_WHATSAPP";
+  const whatsappLink = "https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt";
   const telegramLink = "https://t.me/SEU_GRUPO_TELEGRAM";
 
   const offers = [
