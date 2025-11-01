@@ -126,14 +126,6 @@ export default function Index() {
                 <span className="relative z-10">Entrar no grupo agora 💬</span>
                 <div className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"></div>
               </a>
-              <a
-                href={telegramLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-4 bg-white border-2 border-pink-soft rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
-              >
-                Ou pelo Telegram ✨
-              </a>
             </div>
 
             <p className="text-gray-600 text-base">
