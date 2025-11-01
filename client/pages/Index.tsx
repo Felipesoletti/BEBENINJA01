@@ -1,5 +1,3 @@
-import Layout from "@/components/Layout";
-
 export default function Index() {
   const whatsappLink = "https://wa.me/SEU_CODIGO_WHATSAPP";
 
@@ -26,7 +24,7 @@ export default function Index() {
   ];
 
   return (
-    <Layout>
+    <>
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-pink-soft to-pink-soft/30 py-14 sm:py-20 lg:py-28">
         <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -119,6 +117,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }
