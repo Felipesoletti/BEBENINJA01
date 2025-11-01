@@ -102,67 +102,6 @@ export default function Index() {
       {/* Benefits */}
       <Benefits />
 
-      {/* Recent Offers Section */}
-      <section className="py-14 sm:py-20 lg:py-28 bg-white">
-        <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-fredoka text-2xl sm:text-3xl font-bold text-pink mb-10">
-            Ofertas recentes (exemplos)
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {offers.map((offer) => (
-              <div
-                key={offer.id}
-                className="bg-white border border-pink-soft/30 rounded-2xl p-5 shadow-lg"
-              >
-                <div className="font-bold text-base text-dark mb-2">
-                  {offer.title}
-                </div>
-                <div className="text-green-700 font-black mb-3">
-                  {offer.original && (
-                    <span className="line-through text-gray-500 mr-2">
-                      de {offer.original}
-                    </span>
-                  )}
-                  {offer.discounted && (
-                    <span>por {offer.discounted}</span>
-                  )}
-                  {offer.price && <span>{offer.price}</span>}
-                </div>
-                <button
-                  disabled
-                  className="w-full py-2 bg-gold text-dark font-bold rounded-full text-sm cursor-not-allowed opacity-60"
-                >
-                  Ver oferta (exemplo)
-                </button>
-                {offer.details && (
-                  <p className="text-xs text-gray-600 mt-2">{offer.details}</p>
-                )}
-              </div>
-            ))}
-          </div>
-
-          <p className="text-sm text-gray-600">
-            Preços e cupons válidos no momento da postagem. Podem mudar rapidamente.
-          </p>
-
-          <div className="mt-8 text-center">
-            <p className="text-dark/70 text-base mb-6">
-              Cupons e preços mudam constantemente. Siga no WhatsApp para receber
-              as melhores ofertas em tempo real! 🎁
-            </p>
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-4 bg-pink rounded-full font-bold text-base text-white transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
-            >
-              Entrar no grupo no WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials */}
       <Testimonials />
 
