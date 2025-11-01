@@ -4,7 +4,8 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 
 export default function Index() {
-  const whatsappLink = "https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt";
+  const whatsappLink =
+    "https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt";
   const telegramLink = "https://t.me/SEU_GRUPO_TELEGRAM";
 
   const offers = [
@@ -42,8 +43,8 @@ export default function Index() {
               </h1>
               <p className="text-lg sm:text-xl text-dark/80 mb-4 leading-relaxed">
                 Eu compartilho os melhores achadinhos da Shopee. Tem de
-                tudo:&nbsp; fraldas, roupinhas, brinquedos e tudo que as
-                mamães amam no precinho.
+                tudo:&nbsp; fraldas, roupinhas, brinquedos e tudo que as mamães
+                amam no precinho.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -54,7 +55,9 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
                 >
-                  <span className="relative z-10">Quero entrar no grupo agora 💬</span>
+                  <span className="relative z-10">
+                    Quero entrar no grupo agora 💬
+                  </span>
                   <div
                     className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"
                     style={{ fontWeight: "900", left: "11px" }}
@@ -73,8 +76,8 @@ export default function Index() {
                   ✅ Saída com 1 clique
                 </div>
                 <div className="bg-white border-2 border-dashed border-pink-soft/60 px-4 py-2 rounded-full font-bold text-sm text-dark">
-                  👩‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães já
-                  participam
+                  👩‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães
+                  já participam
                 </div>
               </div>
             </div>
@@ -82,7 +85,10 @@ export default function Index() {
             {/* Right side - Visual */}
             <div className="hidden lg:flex items-center justify-center">
               <div className="w-full max-w-sm aspect-square rounded-3xl bg-gradient-to-br from-pink via-pink-soft to-pink-soft flex items-center justify-center shadow-2xl">
-                <div className="flex flex-col items-center justify-center gap-2.5 text-white text-center" style={{ padding: "24px 40px 24px 24px" }}>
+                <div
+                  className="flex flex-col items-center justify-center gap-2.5 text-white text-center"
+                  style={{ padding: "24px 40px 24px 24px" }}
+                >
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F478dd5b6d5b64a38a1e35f09fc3278b4%2Fb72927da24ef4e40af3ceb2f65322fbe?format=webp&width=800"
                     alt="Bebê Ninja Mascote"
@@ -128,9 +134,7 @@ export default function Index() {
               </a>
             </div>
 
-            <p className="text-gray-600 text-base">
-              Grátis, rápido e seguro.
-            </p>
+            <p className="text-gray-600 text-base">Grátis, rápido e seguro.</p>
           </div>
         </div>
       </section>

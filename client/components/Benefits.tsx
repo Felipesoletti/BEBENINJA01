@@ -2,8 +2,7 @@ export default function Benefits() {
   const benefits = [
     {
       title: "Economize",
-      description:
-        "em fraldas, roupas e brinquedos essenciais do dia a dia.",
+      description: "em fraldas, roupas e brinquedos essenciais do dia a dia.",
     },
     {
       title: "Cupons escondidos",

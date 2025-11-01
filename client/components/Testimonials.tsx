@@ -30,7 +30,9 @@ export default function Testimonials() {
               <p className="text-sm sm:text-base text-dark/80 mb-3">
                 "{testimonial.quote}"
               </p>
-              <p className="text-sm font-bold text-dark">— {testimonial.author}</p>
+              <p className="text-sm font-bold text-dark">
+                — {testimonial.author}
+              </p>
             </div>
           ))}
         </div>

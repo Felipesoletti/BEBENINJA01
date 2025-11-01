@@ -9,7 +9,9 @@ export default function Footer() {
               alt="Logo"
               className="w-9 h-9 rounded-lg object-cover"
             />
-            <strong className="text-dark font-fredoka">Achados Bebê Ninja</strong>
+            <strong className="text-dark font-fredoka">
+              Achados Bebê Ninja
+            </strong>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 text-sm text-dark/70">
             <a href="#" className="hover:text-pink transition-colors">

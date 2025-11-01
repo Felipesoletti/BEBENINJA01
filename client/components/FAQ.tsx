@@ -35,7 +35,9 @@ export default function FAQ() {
             >
               <summary className="cursor-pointer font-bold text-dark flex justify-between items-center">
                 <span>{faq.question}</span>
-                <span className="transition-transform group-open:rotate-180">▼</span>
+                <span className="transition-transform group-open:rotate-180">
+                  ▼
+                </span>
               </summary>
               <p className="mt-3 text-dark/70 text-sm sm:text-base">
                 {faq.answer}

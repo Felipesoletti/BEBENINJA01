@@ -3,7 +3,8 @@ export default function HowItWorks() {
     {
       num: 1,
       title: "Eu pesquiso ofertas reais na Shopee",
-      description: "Monitoro descontos, cupons e horários certos para pagar menos.",
+      description:
+        "Monitoro descontos, cupons e horários certos para pagar menos.",
     },
     {
       num: 2,
