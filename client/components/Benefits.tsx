@@ -20,9 +20,9 @@ export default function Benefits() {
   ];
 
   return (
-    <section className="py-14 sm:py-20 lg:py-28 bg-white">
+    <section className="py-10 sm:py-14 lg:py-20 bg-white">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-fredoka text-2xl sm:text-3xl font-bold text-pink mb-10">
+        <h2 className="font-fredoka text-2xl sm:text-3xl font-bold text-pink mb-6">
           Por que participar
         </h2>
 
