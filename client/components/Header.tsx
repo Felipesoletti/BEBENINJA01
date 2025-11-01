@@ -4,9 +4,11 @@ export default function Header() {
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between py-3.5">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 bg-gradient-to-br from-pink to-pink-soft rounded-xl flex-shrink-0 flex items-center justify-center">
-              <span className="text-white font-bold text-lg">👶</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F478dd5b6d5b64a38a1e35f09fc3278b4%2Fb72927da24ef4e40af3ceb2f65322fbe?format=webp&width=800"
+              alt="Achados Bebê Ninja Logo"
+              className="w-11 h-11 object-cover flex-shrink-0 rounded-xl"
+            />
             <div>
               <div className="font-fredoka font-bold text-base text-pink">
                 Achados Bebê Ninja
