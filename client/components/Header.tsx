@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-pink-soft/90 backdrop-blur-md border-b border-pink-soft/50">
+    <header className="sticky top-0 z-50 bg-white backdrop-blur-md border-b border-pink-soft/50">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between py-3.5">
           <div className="flex items-center gap-3">
