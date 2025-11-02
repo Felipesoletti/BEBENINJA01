@@ -48,7 +48,7 @@ export default function HowItWorks() {
         </div>
 
         <a
-          href="https://wa.me/SEU_CODIGO_WHATSAPP"
+          href="https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
