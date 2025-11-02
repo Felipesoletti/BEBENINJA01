@@ -57,14 +57,7 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
                 >
-                  <span
-                    className="relative z-10"
-                    style={{
-                      "@media (max-width: 640px)": {
-                        textAlign: "center",
-                      },
-                    }}
-                  >
+                  <span className="relative z-10 text-center">
                     Quero entrar no grupo agora 💬
                   </span>
                   <div
