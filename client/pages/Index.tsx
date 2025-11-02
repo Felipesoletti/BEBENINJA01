@@ -69,7 +69,15 @@ export default function Index() {
                   </span>
                   <div
                     className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"
-                    style={{ fontWeight: "900", left: "11px" }}
+                    style={{
+                      fontWeight: "900",
+                      left: "11px",
+                      "@media (max-width: 640px)": {
+                        width: "262px",
+                        top: "-3px",
+                        left: "9px",
+                      },
+                    }}
                   ></div>
                 </a>
               </div>
@@ -85,7 +93,7 @@ export default function Index() {
                   ✅ Saída com 1 clique
                 </div>
                 <div className="bg-white border-2 border-dashed border-pink-soft/60 px-4 py-2 rounded-full font-bold text-sm text-dark">
-                  ��‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães
+                  👩‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães
                   já participam
                 </div>
               </div>
