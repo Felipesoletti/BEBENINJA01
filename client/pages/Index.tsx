@@ -56,16 +56,16 @@ export default function Index() {
                   }
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
+                  className="relative inline-flex items-center justify-center gap-2 px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
                 >
-                  <span className="relative z-10">
-                    Quero entrar no grupo <br />
-                    agora 💬
-                  </span>
                   <div
                     className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"
                     style={{ fontWeight: "900", left: "11px" }}
                   ></div>
+                  <span className="relative z-10 flex items-center gap-2">
+                    Quero entrar no grupo agora
+                    <MessageCircle size={18} className="text-dark" fill="currentColor" />
+                  </span>
                 </a>
               </div>
 
