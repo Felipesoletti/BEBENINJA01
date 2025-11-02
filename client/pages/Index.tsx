@@ -1,4 +1,3 @@
-import { MessageCircle } from "lucide-react";
 import HowItWorks from "@/components/HowItWorks";
 import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
