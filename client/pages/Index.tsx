@@ -50,7 +50,9 @@ export default function Index() {
               <div className="flex flex-col sm:flex-row gap-4 mb-4">
                 <a
                   id="cta"
-                  href={"https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"}
+                  href={
+                    "https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"
+                  }
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
@@ -125,7 +127,9 @@ export default function Index() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <a
-                href={"https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"}
+                href={
+                  "https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
