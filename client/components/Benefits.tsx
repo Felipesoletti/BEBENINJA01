@@ -2,19 +2,19 @@ export default function Benefits() {
   const benefits = [
     {
       title: "Economize",
-      description: "em fraldas, roupas e brinquedos essenciais do dia a dia.",
+      description: "\u00A0em fraldas, roupas e brinquedos essenciais do dia a dia.",
     },
     {
       title: "Cupons escondidos",
-      description: "e alertas relâmpago que somem em minutos.",
+      description: "\u00A0e alertas relâmpago que somem em minutos.",
     },
     {
       title: "Sem perder tempo",
-      description: "comparando preços em mil abas.",
+      description: "\u00A0comparando preços em mil abas.",
     },
     {
       title: "Tudo em um só lugar",
-      description: ", 100% grátis e prático.",
+      description: "\u00A0, 100% grátis e prático.",
     },
   ];
 
