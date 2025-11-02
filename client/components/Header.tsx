@@ -24,7 +24,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="relative inline-flex items-center justify-center px-5 py-3.5 bg-gold rounded-full font-bold text-sm text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
           >
-            <span className="relative z-10">Entrar no grupo grátis 💬</span>
+            <span className="relative z-10 sm:text-center">Entrar no grupo grátis 💬</span>
             <div className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"></div>
           </a>
         </nav>
