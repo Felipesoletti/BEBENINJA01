@@ -62,15 +62,7 @@ export default function Index() {
                   </span>
                   <div
                     className="absolute inset-0 rounded-full border-2 border-gold/60 opacity-90 animate-pulse"
-                    style={{
-                      fontWeight: "900",
-                      left: "11px",
-                      "@media (max-width: 640px)": {
-                        width: "262px",
-                        top: "-3px",
-                        left: "9px",
-                      },
-                    }}
+                    style={{ fontWeight: "900", left: "11px" }}
                   ></div>
                 </a>
               </div>
