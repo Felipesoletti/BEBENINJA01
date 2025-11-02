@@ -19,7 +19,9 @@ export default function Header() {
             </div>
           </div>
           <a
-            href="#cta"
+            href="https://chat.whatsapp.com/JNVECWTZ98BAPKm94YChEA?mode=wwt"
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative inline-flex items-center justify-center px-5 py-3.5 bg-gold rounded-full font-bold text-sm text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
           >
             <span className="relative z-10">Entrar no grupo grátis 💬</span>
