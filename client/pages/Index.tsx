@@ -57,7 +57,14 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="relative inline-flex items-center justify-center px-6 py-4 bg-gold rounded-full font-bold text-base text-dark transition-transform duration-75 active:translate-y-0.5 shadow-lg hover:shadow-xl"
                 >
-                  <span className="relative z-10">
+                  <span
+                    className="relative z-10"
+                    style={{
+                      "@media (max-width: 640px)": {
+                        textAlign: "center",
+                      },
+                    }}
+                  >
                     Quero entrar no grupo agora 💬
                   </span>
                   <div
@@ -78,7 +85,7 @@ export default function Index() {
                   ✅ Saída com 1 clique
                 </div>
                 <div className="bg-white border-2 border-dashed border-pink-soft/60 px-4 py-2 rounded-full font-bold text-sm text-dark">
-                  👩‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães
+                  ��‍👧‍👦 <span className="text-pink font-black">+1.000</span> mamães
                   já participam
                 </div>
               </div>
