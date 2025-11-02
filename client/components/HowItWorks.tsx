@@ -19,7 +19,7 @@ export default function HowItWorks() {
     {
       num: 4,
       title: "Chega primeiro para quem está no grupo",
-      description: "Oferta boa acaba rápido — receba antes que termine.",
+      description: "Oferta boa acaba rápido. Receba antes que termine.",
     },
   ];
 
